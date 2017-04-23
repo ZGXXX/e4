@@ -1,0 +1,30 @@
+*{
+	margin: 0;padding: 0;
+}
+#main{
+	position: relative;
+	margin: 0 auto;
+/*	-webkit-column-gap:6;
+    -moz-column-gap:6;
+	-o-column-gap:6;
+	-ms-column-gap:6;*/
+	    -webkit-column-width:160px;
+    -moz-column-width:160px; 
+	  -webkit-column-gap:5px;
+	  -moz-column-gap:5px;
+}
+.box{
+	padding: 15px 0 0 15px;
+	float: left;
+}
+.pic{
+	padding: 10px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #ccc; 	
+}
+
+.pic img{
+	width: 165px;
+	height: auto;
+}
